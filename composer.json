@@ -1,22 +1,22 @@
 {
-	"name": "consik/yii2-websocket",
-	"description": "Yii2 websocket server component",
+	"name": "apaoww/yii2-websocket",
+	"description": "Yii2 websocket server component Fork From consik yii2 websocket used cboden/ractchet 0.4",
 	"type": "yii2-extension",
 	"keywords": ["yii2", "websocket", "component", "ratchet"],
 	"license": "MIT",
 	"authors": [
 		{
-			"name": "Sergey Poltaranin (Consik)",
-			"email": "consigliere.kz@gmail.com"
+			"name": "Apaoww",
+			"email": "apa.oww@gmail.com"
 		}
 	],
 	"require": {
 		"yiisoft/yii2": "*",
-		"cboden/ratchet": "0.3.*"
+		"cboden/ratchet": "0.4.*"
 	},
 	"autoload": {
 		"psr-4": {
-			"consik\\yii2websocket\\": ""
+			"apaoww\\yii2websocket\\": ""
 		}
 	}
 }
