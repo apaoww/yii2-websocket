@@ -91,8 +91,8 @@ Create your server class based on WebSocketServer. For example ```daemons\EchoSe
 <?php
 namespace app\daemons;
 
-use consik\yii2websocket\events\WSClientMessageEvent;
-use consik\yii2websocket\WebSocketServer;
+use apaoww\yii2websocket\events\WSClientMessageEvent;
+use apaoww\yii2websocket\WebSocketServer;
 
 class EchoServer extends WebSocketServer
 {
@@ -167,7 +167,7 @@ Create yii2 console controller for starting server:
 <?php
 namespace app\commands;
 
-use consik\yii2websocket\WebSocketServer;
+use apaoww\yii2websocket\WebSocketServer;
 use yii\console\Controller;
 
 class ServerController extends Controller
@@ -212,7 +212,7 @@ Server class ```daemons\CommandsServer.php```:
 <?php
 namespace app\daemons;
 
-use consik\yii2websocket\WebSocketServer;
+use apaoww\yii2websocket\WebSocketServer;
 use Ratchet\ConnectionInterface;
 
 class CommandsServer extends WebSocketServer
@@ -274,8 +274,8 @@ Code without comments, try to understand it by youself ;)
 <?php
 namespace app\daemons;
 
-use consik\yii2websocket\events\WSClientEvent;
-use consik\yii2websocket\WebSocketServer;
+use apaoww\yii2websocket\events\WSClientEvent;
+use apaoww\yii2websocket\WebSocketServer;
 use Ratchet\ConnectionInterface;
 
 class ChatServer extends WebSocketServer
