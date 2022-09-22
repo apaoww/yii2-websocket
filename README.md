@@ -13,13 +13,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-composer require consik/yii2-websocket
+composer require apaoww/yii2-websocket
 ```
 
 or add
 
 ```json
-"consik/yii2-websocket": "^1.0"
+"apaoww/yii2-websocket": "^1.0"
 ```
 
 ## WebSocketServer class description
